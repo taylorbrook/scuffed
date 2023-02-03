@@ -9,7 +9,7 @@ performer, some imitating them, and some contrasting and ignoring them. The SCI 
 autonomously.
 
 Dependencies:
-ml.markov (from ml.star library by Ben Smith)
+ml.markov (from ml.star package by Ben Smith)
 
 Running the patch:
 1. set audio rate to 48k
