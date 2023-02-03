@@ -2,6 +2,8 @@
 Scuffed Computer Improviser
 Computer Improviser in Max 8.5.2
 
+https://www.taylorbrook.info/sci
+
 The Scuffed Computer Improviser (SCI) is an audio-corpus-based AI computer improviser that "learns" to improvise through being "trained" by an audio input.
 The patch will analyze the incoming audio stream for attack points, pitch content, harmonicity, brightness, and amplitude and uses this information to
 improvise music as a partner in a live improvisation. The SCI has a number of behaviors, some doubling the live performer, some reacting to the live
