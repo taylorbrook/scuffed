@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 39.916663885116577, 644.980480552810718, 55.0, 22.0 ],
-					"text" : "dac~ 5 6"
+					"text" : "dac~ 1 2"
 				}
 
 			}
@@ -1130,7 +1130,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "signal" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 87.0, 77.0, 30.0, 30.0 ]
 								}
 
