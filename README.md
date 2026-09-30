@@ -10,9 +10,6 @@ improvise music as a partner in a live improvisation. The SCI has a number of be
 performer, some imitating them, and some contrasting and ignoring them. The SCI behaviors may be controlled manually using toggles or be set to act
 autonomously.
 
-Dependencies:
-ml.markov (from ml.star package by Ben Smith)
-
 Running the patch:
 1. set audio rate to 48k
 2. Hit Initialize

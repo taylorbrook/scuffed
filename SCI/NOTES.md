@@ -1,6 +1,6 @@
 # SCI — working notes
 
-Scuffed Computer Improviser. Originally Max 8.2; now run in **Max 9 @ 48 kHz**. Dependency: `ml.markov` (ml.star).
+Scuffed Computer Improviser. Originally Max 8.2; now run in **Max 9 @ 48 kHz**. No third-party dependencies (`ml.markov` replaced by `sci_markov.js`, 2026-09-30).
 Title in the main patch: "Scuffed Improviser 2026 - 09 - 29".
 
 ## Architecture
@@ -25,7 +25,7 @@ Title in the main patch: "Scuffed Improviser 2026 - 09 - 29".
     - reactive1 (replays notes from `p memory`), reactive2
     - leader1, leader2, inverse
     - matcher (`3dim_mapper`, jit nearest-neighbour on pitch/noise/bright)
-    - imitator_markov (`ml.markov` order 4)
+    - imitator_markov (`js sci_markov 4`: order-4 Markov over int states, backs off to shorter contexts, random restart on dead end)
   - Gestures: glitch, slowingcurve, pitchgest, linegest. Behaviors trigger them through `p gesture_router`; they can also be fired with buttons.
   - `p automatedbehaviors` picks a behavior with `random 10`, gated by input energy.
 - **`SCIplayback`**: poly~ voice

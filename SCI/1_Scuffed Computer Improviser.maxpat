@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 282.0, 117.0, 1312.0, 835.0 ],
+        "rect": [ 282.0, 117.0, 1111.0, 835.0 ],
         "boxes": [
             {
                 "box": {
@@ -7589,17 +7589,6 @@
                                     "numoutlets": 0,
                                     "patching_rect": [ 26.0, 246.0, 429.0, 144.0 ],
                                     "text": "General Information:\nThe Scuffed Computer Improviser (SCI) is an audio-corpus-based AI computer improviser that \"learns\" to improvise through being \"trained\" by an audio input. The patch will analyze the incoming audio stream for attack points, pitch content, harmonicity, brightness, and amplitude and uses this information to improvise music as a partner in a live improvisation. The SCI has a number of behaviors, some doubling the live performer, some reacting to the live performer, some imitating them, and some contrasting and ignoring them. The SCI behaviors may be controlled manually using toggles or be set to act autonomously."
-                                }
-                            },
-                            {
-                                "box": {
-                                    "id": "obj-7",
-                                    "linecount": 2,
-                                    "maxclass": "comment",
-                                    "numinlets": 1,
-                                    "numoutlets": 0,
-                                    "patching_rect": [ 26.0, 637.0, 429.0, 34.0 ],
-                                    "text": "Dependencies:\nml.markov (from ml.star library by Ben Smith)"
                                 }
                             },
                             {

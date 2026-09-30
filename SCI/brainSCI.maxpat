@@ -8267,10 +8267,14 @@
                                                     "id": "obj-61",
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
-                                                    "numoutlets": 3,
-                                                    "outlettype": [ "", "", "" ],
-                                                    "patching_rect": [ 451.0, 328.0, 188.0, 22.0 ],
-                                                    "text": "ml.markov @dynamic 1 @order 4"
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "" ],
+                                                    "patching_rect": [ 451.0, 328.0, 100.0, 22.0 ],
+                                                    "text": "js sci_markov 4",
+                                                    "saved_object_attributes": {
+                                                        "filename": "sci_markov",
+                                                        "parameter_enable": 0
+                                                    }
                                                 }
                                             },
                                             {
@@ -8420,10 +8424,14 @@
                                                     "id": "obj-8",
                                                     "maxclass": "newobj",
                                                     "numinlets": 1,
-                                                    "numoutlets": 3,
-                                                    "outlettype": [ "", "", "" ],
-                                                    "patching_rect": [ 91.0, 301.0, 188.0, 22.0 ],
-                                                    "text": "ml.markov @dynamic 1 @order 4"
+                                                    "numoutlets": 1,
+                                                    "outlettype": [ "" ],
+                                                    "patching_rect": [ 91.0, 301.0, 100.0, 22.0 ],
+                                                    "text": "js sci_markov 4",
+                                                    "saved_object_attributes": {
+                                                        "filename": "sci_markov",
+                                                        "parameter_enable": 0
+                                                    }
                                                 }
                                             },
                                             {
