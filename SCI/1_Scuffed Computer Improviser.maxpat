@@ -52,54 +52,6 @@
             },
             {
                 "box": {
-                    "fontface": 1,
-                    "fontsize": 12.0,
-                    "id": "obj-116",
-                    "linecount": 3,
-                    "maxclass": "comment",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ -69.32357639128878, 666.0, 106.0, 47.0 ],
-                    "text": "send to multitrack\nrecording patch",
-                    "textjustification": 1
-                }
-            },
-            {
-                "box": {
-                    "id": "obj-112",
-                    "maxclass": "toggle",
-                    "numinlets": 1,
-                    "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "parameter_enable": 0,
-                    "patching_rect": [ 34.67642360871122, 657.0, 64.98048055281072, 64.98048055281072 ]
-                }
-            },
-            {
-                "box": {
-                    "hidden": 1,
-                    "id": "obj-110",
-                    "maxclass": "newobj",
-                    "numinlets": 2,
-                    "numoutlets": 1,
-                    "outlettype": [ "int" ],
-                    "patching_rect": [ -76.32357639128878, 706.0, 29.5, 22.0 ],
-                    "text": "+ 1"
-                }
-            },
-            {
-                "box": {
-                    "hidden": 1,
-                    "id": "obj-98",
-                    "maxclass": "newobj",
-                    "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ -76.32357639128878, 722.0, 102.0, 22.0 ],
-                    "text": "s multitracktoggle"
-                }
-            },
-            {
-                "box": {
                     "id": "obj-97",
                     "maxclass": "meter~",
                     "numinlets": 1,
@@ -1308,7 +1260,7 @@
                     "patching_rect": [ -77.83333611488342, 24.00000023841858, 554.75, 27.0 ],
                     "presentation": 1,
                     "presentation_rect": [ -35.0, 24.00000023841858, 512.0, 27.0 ],
-                    "text": "Scuffed Improviser 2025 - 03 - 12",
+                    "text": "Scuffed Improviser 2026 - 09 - 29",
                     "textjustification": 1
                 }
             },
@@ -7729,20 +7681,6 @@
                     "destination": [ "obj-2", 0 ],
                     "midpoints": [ 202.95832788511655, 147.0, 175.5, 147.0 ],
                     "source": [ "obj-11", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-98", 0 ],
-                    "hidden": 1,
-                    "source": [ "obj-110", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-110", 0 ],
-                    "hidden": 1,
-                    "source": [ "obj-112", 0 ]
                 }
             },
             {
