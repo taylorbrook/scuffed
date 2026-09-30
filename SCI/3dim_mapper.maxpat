@@ -126,7 +126,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.5, 142.0, 122.0, 22.0 ],
+					"patching_rect" : [ 15.5, 142.0, 88.0, 22.0 ],
 					"text" : "r #1_clear"
 				}
 
@@ -149,7 +149,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 654.5, 592.0, 50.0, 20.0 ],
+					"patching_rect" : [ 654.5, 588.0, 50.0, 20.0 ],
 					"text" : "value"
 				}
 
@@ -172,7 +172,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 721.75, 593.25, 50.0, 20.0 ],
+					"patching_rect" : [ 721.75, 588.0, 50.0, 20.0 ],
 					"text" : "index"
 				}
 
@@ -231,7 +231,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 529.0, 590.75, 50.0, 20.0 ],
+					"patching_rect" : [ 529.0, 589.0, 50.0, 20.0 ],
 					"text" : "value"
 				}
 
@@ -413,7 +413,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 596.25, 592.0, 50.0, 20.0 ],
+					"patching_rect" : [ 596.25, 589.0, 50.0, 20.0 ],
 					"text" : "index"
 				}
 
@@ -426,7 +426,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 582.0, 607.75, 50.0, 22.0 ]
+					"patching_rect" : [ 582.0, 610.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -438,7 +438,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 522.0, 607.75, 50.0, 22.0 ]
+					"patching_rect" : [ 522.0, 610.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -734,7 +734,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 426.5, 182.5, 44.0, 20.0 ],
+					"patching_rect" : [ 555.0, 141.0, 31.0, 20.0 ],
 					"text" : "list 3"
 				}
 
@@ -745,7 +745,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 271.0, 184.0, 44.0, 20.0 ],
+					"patching_rect" : [ 401.0, 141.0, 40.0, 20.0 ],
 					"text" : "list 2"
 				}
 
@@ -756,7 +756,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 108.0, 184.0, 44.0, 20.0 ],
+					"patching_rect" : [ 265.0, 141.0, 40.0, 20.0 ],
 					"text" : "list 1"
 				}
 
