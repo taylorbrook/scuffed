@@ -1,6 +1,6 @@
 # scuffed
 Scuffed Computer Improviser
-Computer Improviser in Max 8.5.2
+Computer Improviser in Max 9.1.5
 
 https://www.taylorbrook.info/sci
 
